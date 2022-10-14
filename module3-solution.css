@@ -17,15 +17,15 @@ body {
 }
 
 .navbar-brand h1 { /* Restaurant name */
-    font-family: 'Raleway', Light 300 sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: black;
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a {
     text-decoration: none;
 }
 
