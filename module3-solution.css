@@ -9,21 +9,22 @@ body {
 .navbar {
     background-color: grey;
     border-radius: 0;
-    border-bottom: 0.2em solid black;}
-
-@media (min-width: 768px) {
-    .navbar-nav, navbar-toggler{
-        visibility: hidden !important;
-    }
+    border-bottom: 0.2em solid black;
+    border-top: 0.2em solid black;
 }
 
 /**@media (min-width: 768px) {
-    .navbar-nav {
-        visibility: hidden !important;
+    .navbar-nav{
+        display: none !important;
     }
-}**/
+}*/
+.navbar-collapse{
+    background-color: white;
+}
 .nav-link {
-color:white;
+    color:black;
+    text-align: center;
+    border-top: 0.2em solid black;
 }
 
 /* END HEADER */
