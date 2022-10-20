@@ -23,7 +23,7 @@ body {
 }
 .nav-link {
     color:black;
-    text-align: center;
+    //*text-align: center;*//
     border-top: 0.2em solid black;
 }
 .col-12{
